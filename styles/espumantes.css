@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#paginas {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-size: 20px;
+  background-color: #802234;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+#paginas > a {
+  color: #d0b578;
+  text-decoration: none;
+  padding: 10px 32px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+#paginas > a:hover {
+  color: #a38b51;
+  background-color: #6b202e;
+}
+
+input {
+  display: block;       
+  margin: 10px auto;    
+  width: 80%;          
+  max-width: 400px;  
+  border-radius: 17px;
+  outline: none;
+  border: 1px solid #d1d5db;
+  width: 90%;
+  max-width: 900px;
+  background-color: #802234;
+  color: #d0b578;
+  border-color: #802234;
+
+  background-image: url('../imagens/lupa.png');
+  background-repeat: no-repeat;
+  background-position: 18px center;
+  background-size: 18px;
+  padding: 9px 15px 9px 48px;
+  margin: 0 auto 0 300px; 
+}
+
+input::placeholder {
+  color: #d0b578; 
+  opacity: 1;     
+}
+
+.topo {
+  background-color: #5a1724;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.topo > img {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;       
+  height: 0x;              
+  width: 200px;
+  margin: 0px;
+  padding: 0px 0px 0px 100px;
+}
