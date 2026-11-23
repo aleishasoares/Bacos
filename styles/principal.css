@@ -1,3 +1,7 @@
+body{
+  background-color: #faf1dd;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -71,4 +75,13 @@ input::placeholder {
   width: 220px;
   margin: 0px;
   padding: 0px 0px 0px 100px;
+}
+
+.itens{
+  width: 150px;
+  padding: 13px;
+  background-color: white;
+  border: solid 3px #d0b578;
+  border-radius: 10px;
+
 }
