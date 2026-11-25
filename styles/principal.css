@@ -83,5 +83,8 @@ input::placeholder {
   background-color: white;
   border: solid 3px #d0b578;
   border-radius: 10px;
+}
 
+.tela{
+  display: flex;
 }
